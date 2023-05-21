@@ -1,0 +1,10 @@
+def printnum(i,n):
+    if(i<=0):
+        return;
+    elif (i<=n):
+        print(i,end=" ")
+        i+=1
+        printnum(i,n);
+        
+N = 5;
+printnum(1,N);
