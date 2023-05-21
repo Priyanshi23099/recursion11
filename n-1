@@ -1,0 +1,11 @@
+def PrintReverse(N):
+ 
+    if (N <= 0):
+        return;
+    else:
+        print(N, end = " ");
+        PrintReverse(N - 1);
+         
+
+N = 5;
+PrintReverse(N);
